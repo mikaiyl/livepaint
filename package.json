@@ -1,14 +1,16 @@
 {
   "name": "livepaint",
   "version": "1.0.0",
-  "description": "",
+  "description": ".",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": ".",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "5.2.5"
   }
 }

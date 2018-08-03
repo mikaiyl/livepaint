@@ -6,6 +6,7 @@ var tool = "draw";
 var paint_color = "green";
 
 bitmap.render(document.getElementById("bitmap1"));
+setInterval( ( ) => bitmap.update(), 1000 )
 
 toolbar.addEventListener("click", function(event) {
     if(event.target.id === "toolbar") return;

@@ -8,7 +8,7 @@ h1 {font-family: 'Fredoka One', sans-serif;}
 
 .show_grid .bmp_cell {border: 1px solid gray;}
 
-.bitmap {width: max-content; padding: 2px; border: 1px solid black;}
+.bitmap {width: -moz-max-content; width: max-content; padding: 2px; border: 1px solid black;}
 
 #controls {display: flex; border: 1px solid black; width: max-content; font-size: 40px;}
 #controls .selected {border: 3px solid black; margin: 3px;}
